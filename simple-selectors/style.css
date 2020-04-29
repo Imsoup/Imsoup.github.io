@@ -1,0 +1,21 @@
+
+.big{
+    color: blue;
+    width: 30%;
+}
+.b326, #b325{
+    border: 1px;
+    border-style: solid;
+    border-color: green;
+    width: 30%;
+    font-weight: bold;   
+}
+p{
+    background: yellow;
+    width: 30%;
+}
+.b329 {
+    font-weight: bold;
+}
+
+
