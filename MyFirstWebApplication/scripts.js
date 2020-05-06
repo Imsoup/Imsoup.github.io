@@ -58,7 +58,7 @@ loadPhoto(currentPhoto);
        if(currentPhoto > 0){
         currentPhoto--;
         
-    }
+    }else (currentPhoto = 7)
     loadPhoto(currentPhoto);
        
    });
@@ -67,7 +67,7 @@ loadPhoto(currentPhoto);
     if(currentPhoto < 6){     
     currentPhoto++;
        
-   }
+   }else (currentPhoto = 0)
    loadPhoto(currentPhoto);  
    
 });
