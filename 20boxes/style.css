@@ -1,0 +1,27 @@
+.container{
+   border: 3px solid rgb(38, 119, 146);
+   display: flex;
+   width: auto;
+   justify-content:center;
+   flex-direction: row-reverse;
+   margin: 0px 40px 20px 0px;
+  
+        
+}
+
+.item{
+    width: 20px;
+    height: 10px;
+    margin: 20px;
+    padding: 20px 20px 20px 20px;
+      
+  }
+.orange{
+    background: #E0553D;
+}
+.blue {
+    background: rgb(38, 119, 146);
+}
+.purple{
+    background: rgb(121, 53, 121);
+}
