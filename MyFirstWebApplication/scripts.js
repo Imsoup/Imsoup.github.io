@@ -7,7 +7,7 @@ let imagesData=[{
 },
     
    {
-    photo: 'Images/Darkeldar.jpg',
+    photo: 'Images/DarkEldar.jpg',
     title: 'Dark Eldar',
     description: 'Fall in trap by the new chaos god Slanesh the Dark Eldar seeking '
 },
