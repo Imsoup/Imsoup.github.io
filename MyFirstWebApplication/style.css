@@ -29,9 +29,13 @@ blockquote{
     left:0;
     border-radius: 8px;
     border-style: groove;
-    border: 5px solid black;
+    border: solid black;
+    border-left-width: 10px;
     padding: 15px 15px;
     font-family: 'Frijole', cursive;
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin: 0;
 }
 span {
     position: absolute;
