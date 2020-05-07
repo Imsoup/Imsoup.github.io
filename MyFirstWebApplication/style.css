@@ -1,13 +1,12 @@
 body {
     background: lightgray;
-    display: flexblock;
+    display: flex;
     /*margin: 8px;
     padding: 100px 100px 150px 350px;*/
-    max-height: 100%;
-    max-width: 100%;
+    height:100%;
     margin:0;
     padding:0;
-    font-family: 'Frijole', cursive;
+    
     
     
 }
@@ -20,21 +19,35 @@ main {
      position: fixed;
      margin-top: -300px;
      margin-left: -500px;
-     max-width: 100%;
-     max-height: 100%;
+     
      
         
+}
+blockquote{
+    position: absolute;
+    top:0;
+    left:0;
+    border-radius: 8px;
+    border-style: groove;
+    border: 5px solid black;
+    padding: 15px 15px;
+    font-family: 'Frijole', cursive;
+}
+span {
+    position: absolute;
+    bottom:0;
+    right: 0;
+    border-radius: 8px;
+    padding: 15px 15px;
 }
 .imageFrame{
     display: flex;
     flex-direction: row;
     padding: 0px;
     border: 1px solid gray; 
-    height:100%;
-    width: 100%;
+     
     
 }
-
 
 /*div {
     flex-grow: 1; 
@@ -89,6 +102,7 @@ section {
     right:150px;
     opacity: 0.6;
     background: cornflowerblue;
+    font-family: 'Frijole', cursive;
     
         
 }
