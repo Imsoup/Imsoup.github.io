@@ -1,14 +1,14 @@
 body {
-    background: lightgray;
-    display: flex;
+    /*background-image: url("background-image.jpg");*/
+    background-color: #cccccc;
+    
+    display: flex;    
     /*margin: 8px;
     padding: 100px 100px 150px 350px;*/
     height:100%;
     margin:0;
     padding:0;
-    
-    
-    
+   
 }
 main {   
      left:50%;
@@ -19,24 +19,25 @@ main {
      position: fixed;
      margin-top: -300px;
      margin-left: -500px;
-     
-     
-        
+                      
 }
-blockquote{
-    position: absolute;
-    top:0;
-    left:0;
-    border-radius: 8px;
-    border-style: groove;
-    border: solid black;
-    border-left-width: 10px;
-    padding: 15px 15px;
+.blockquote{
+    max-width:300px;
+    margin: 10px 30px;
+    padding: 25px;
+    opacity:0.4;
     font-family: 'Frijole', cursive;
-    font-size: 1.5em;
-    line-height: 1.5;
-    margin: 0;
+         
 }
+.blockquote--quoted::before {
+    content: "\201c";
+    font-size: 50px;
+    display:block;
+    margin-bottom: -40px;
+    margin-top: -20px;
+    
+}
+
 span {
     position: absolute;
     bottom:0;
