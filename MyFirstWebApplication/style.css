@@ -1,9 +1,10 @@
 body {
     background: lightgray;
-    display: flex;
+    display: block;
     /*margin: 8px;
     padding: 100px 100px 150px 350px;*/
     height:100%;
+    width: 100%;
     margin:0;
     padding:0;
     font-family: 'Frijole', cursive;
@@ -30,6 +31,7 @@ main {
      
     
 }
+
 
 /*div {
     flex-grow: 1; 
