@@ -45,14 +45,21 @@ let imagesData=[{
     description: 'Chaos spacemarines in Battle with loyalist Ultramarine spacemarines'
 }];
 
-console.log(imagesData);
+
+
 
 let loadPhoto=(photoNumber)=>{
     $('#photo').attr('src',imagesData[currentPhoto].photo);
     $('#photo-title').text(imagesData[currentPhoto].title);
-    $('#photo-description').text( imagesData[currentPhoto].description);
+    $('#photo-description').text( imagesData[currentPhoto].description); 
+       
 }
 loadPhoto(currentPhoto);
+imagesData.forEach((photo,currentPhoto) => {
+    $('.pictureBox').append(`<img class="thumbnails" data-number="${currentPhoto}" src="${imagesData[currentPhoto].photo}>`);
+    
+    });
+
 
     $('#left').click(() => {
        if(currentPhoto > 0){
@@ -75,10 +82,10 @@ loadPhoto(currentPhoto);
 loadPhoto(currentPhoto);
 
 
+/*imagesData.forEach((photo, index) => {
+    $('#thumbContainer').append(`<img class="thumb" data-index="${index}" src="${imagesData[index].photo}">`);
 
-
-
-
+});*/
 
 
 
